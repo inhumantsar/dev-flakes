@@ -16,7 +16,7 @@
         python,
         pythonPackages,
       }:
-        (pkgs.buildFHSUserEnv {
+        (pkgs.buildFHSEnv {
           name = "python-env";
           targetPkgs = pkgs:
             (with pkgs; [
